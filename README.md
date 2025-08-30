@@ -13,8 +13,8 @@ A FastAPI-based backend service for Discord bot management and Roblox account ve
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd disblox-api
+git clone https://github.com/yurstile/disblox.git
+cd disblox
 ```
 
 2. Install Python dependencies:
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 1. Copy the environment template:
 ```bash
-cp .env.example .env
+cp env.example .env
 ```
 
 2. Configure the following environment variables in `.env`:
